@@ -1,0 +1,7 @@
+name: ColorSpiral
+version: '1.0-SNAPSHOT'
+main: mc.highlitemc.colorSpiral.ColorSpiral
+api-version: '1.21'
+prefix: COLOR-SPIRAL
+load: STARTUP
+authors: [ Tommy_202020 ]
