@@ -1,0 +1,31 @@
+# Configuration file for the ColorSpiral plugin
+# Spiral Effect Settings
+spiral:
+  # Duration of the spiral effect in seconds
+  duration: 30
+  # Speed of the spiral movement (higher values make it faster)
+  speed: 0.3
+  # Radius of the spiral
+  radius: 2.0
+  # Particle effect type (use DUST_COLOR_TRANSITION or other particle types available)
+  particle_effect: DUST_COLOR_TRANSITION
+
+# Player Color Assignment Settings
+player:
+  # Default color/number assignment range
+  # The color/number assigned to the player will be between 1 and 8
+  # You can change the range here if needed
+  min_color_number: 1
+  max_color_number: 8
+# Message Settings
+messages:
+  # Message to display when the player joins and gets assigned a color
+  color_assigned: "&aYou have been assigned number &%number% (&%color_name%)!"
+  # Message displayed when the player starts the spiral effect
+  start_spiral: "&aThe spiral effect has started!"
+  # Message displayed when the spiral effect ends
+  end_spiral: "&cThe spiral effect has ended."
+# Specify the folder name where the database will be stored
+database:
+  folder_name: "SpiralParticles"
+  file_name: "spiral_data.db"
